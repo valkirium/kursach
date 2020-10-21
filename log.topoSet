@@ -1,0 +1,37 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  4.1                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 4.1
+Exec   : topoSet
+Date   : May 30 2020
+Time   : 14:14:49
+Host   : "openfoam-vm"
+PID    : 3945
+Case   : /home/openfoam/Downloads/floatingObjectSphere
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading topoSetDict
+
+Time = 0
+    mesh not changed.
+Created cellSet c0
+    Applying source sphereToCell
+    Adding cells with centre within sphere, with centre = (1.5 1.5 1.5) and radius = 0.3
+    cellSet c0 now size 552
+Read set cellSet c0 with size 552
+    Inverting cellSet
+    cellSet c0 now size 124448
+End
+
